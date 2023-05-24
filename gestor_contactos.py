@@ -1,3 +1,5 @@
+#EXCELENTE !!!
+
 """"
 Gestor de Contactos. Crea un programa que funcione como un gestor de contactos. El
 programa debe permitir al usuario almacenar nombres y números de teléfono en un
@@ -32,7 +34,8 @@ while bandera == 1:
         nombre = input("Ingrese el nombre del contacto: ")
         telefono = input("Ingrese el número de teléfono del contacto: ")
         contactos[nombre] = telefono
-        
+        #podemos darle un mensajito de confirmacion al usuario sobre cómo resultó la acción que llevó a cabo: 
+        print("Contacto agregado con éxito")
     #BUSCAR CONTACTO
     if opcion == 2:
         nombre_buscado = input("Ingrese el nombre del contacto que desea buscar: ")
